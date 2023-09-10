@@ -45,6 +45,20 @@ body {
   height: 45px;
   cursor: pointer;
 }
-.card-light-img-preview{
-transform: rotate(335deg);
+.card-light-img-preview {
+  transform: rotate(335deg);
+}
+.details p {
+  color: #666;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.star-rating{
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+.checked {
+  color: orange;
 }
