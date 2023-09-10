@@ -1,11 +1,50 @@
+@font-face {
+  font-family: diroz;
+  src: url(../public/Font/Dirooz.eot);
+  src: url(../public/Font/Dirooz.woff);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  font-family: diroz;
+  background-color: lightgray;
+}
+.cards {
+  display: flex;
+  gap: 1.2rem;
+}
+.card-light {
+  width: 300px;
+  height: 500px;
+  border-radius: 30px;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.card-light-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-light-addIcon {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+.card-light-companyIcon {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.card-light-img-preview{
+transform: rotate(335deg);
 }
