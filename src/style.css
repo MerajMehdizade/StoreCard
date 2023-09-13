@@ -55,10 +55,49 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
-.star-rating{
-  color: #e0e0e0;
+.card-light-star-rating {
+  color: #cecccc;
   font-size: 1.2rem;
 }
 .checked {
   color: orange;
+}
+.card-light-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-light-colors {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #353434;
+}
+.card-light-colors span:nth-child(4n + 2) {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: gray;
+    cursor: pointer;
+}
+.card-light-colors span:nth-child(4n + 3) {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: lightblue;
+    cursor: pointer;
+}
+.card-light-colors span:nth-child(4n) {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: black;
+    cursor: pointer;
+}
+.card-light-price{
+  text-align: center;
+  color: #666;
+}
+.card-light-price span {
+  font-size: 0.8rem;
 }
