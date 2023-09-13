@@ -9,6 +9,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 body {
   display: flex;
   justify-content: center;
@@ -24,7 +28,7 @@ body {
 }
 .card-light {
   width: 300px;
-  height: 500px;
+  height: 580px;
   border-radius: 30px;
   padding: 1.5rem;
   background-color: white;
@@ -54,6 +58,7 @@ body {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  line-height: 1.5;
 }
 .card-light-star-rating {
   color: #cecccc;
@@ -78,26 +83,72 @@ body {
   height: 18px;
   border-radius: 100%;
   background-color: gray;
-    cursor: pointer;
+  cursor: pointer;
 }
 .card-light-colors span:nth-child(4n + 3) {
   width: 18px;
   height: 18px;
   border-radius: 100%;
   background-color: lightblue;
-    cursor: pointer;
+  cursor: pointer;
 }
 .card-light-colors span:nth-child(4n) {
   width: 18px;
   height: 18px;
   border-radius: 100%;
   background-color: black;
-    cursor: pointer;
+  cursor: pointer;
 }
-.card-light-price{
+.card-light-price {
   text-align: center;
   color: #666;
 }
 .card-light-price span {
   font-size: 0.8rem;
+}
+.card-light-button {
+  display: flex;
+  margin-top: 1rem;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 45px;
+  width: 100%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.btn-1 {
+  color: rgba(0, 255, 0, 0.781);
+  font-weight: 100;
+}
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.btn-1 rect {
+  fill: none;
+  stroke: rgb(89, 223, 89);
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 0.38s linear;
+}
+
+.btn-1:hover {
+  background: rgba(93, 224, 17, 0);
+   color: rgb(0, 255, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.btn-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 1.39s cubic-bezier(0.19, 1, 0.22, 1);
 }
