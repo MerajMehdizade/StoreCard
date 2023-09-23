@@ -16,22 +16,18 @@
 
 This is a store card that you can use to sell your products on the site
 
-#### Desktop Design
+#### Design
 
 <p align="center">
-  <img src="https://github.com/MerajMehdizade/Digital-Clock/assets/105376555/6223e66b-203f-4251-bba3-1c8e28d97038" alt="desktop view" width="600"  />
+  <img src="https://github.com/MerajMehdizade/StoreCard/assets/105376555/3069fe3f-770f-4efa-9064-84f3556a3166
+ alt="desktop view" width="600"  />
 </p>
 
-#### Mobile Design
-
-<p align="center">
-	<img src="https://github.com/MerajMehdizade/Digital-Clock/assets/105376555/8b08e32f-3ed1-4654-a38d-2a33860051d4" alt="mobile view" height="500" /> 
-</p>
 
 ### Built With
 
-- [![Tailwind][tailwind-shield]][tailwind-url]
-- [![JavaScript][js-sheild]][javascript-url]
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <!-- CONTRIBUTING -->
 
