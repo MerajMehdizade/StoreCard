@@ -9,10 +9,12 @@
   </p>
 </div>
 
-<!-- ABOUT THE PROJECT -->
 
 ## How to start the project
-**Run Index.html**
+```
+Run index.html
+```
+<!-- ABOUT THE PROJECT -->
 
 ## About The Project
 This is a store card that you can use to sell your products on the site
