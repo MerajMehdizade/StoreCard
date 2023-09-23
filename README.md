@@ -10,11 +10,20 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## How to start the project
 **Run Index.html**
-## About The Project
 
+## About The Project
 This is a store card that you can use to sell your products on the site
+
+### Features of this template :
+<ol>
+  <li>Responsive</li>
+  <li>Best Practices</li>
+  <li>Clean Code</li>
+  <li>Dark and Light Mode</li>
+</ol>
 
 #### Design
 
