@@ -19,8 +19,7 @@ This is a store card that you can use to sell your products on the site
 #### Design
 
 <p align="center">
-  <img src="https://github.com/MerajMehdizade/StoreCard/assets/105376555/3069fe3f-770f-4efa-9064-84f3556a3166
- alt="desktop view" width="600"  />
+  <img src="https://github.com/MerajMehdizade/StoreCard/assets/105376555/3069fe3f-770f-4efa-9064-84f3556a3166  alt="desktop view" width="600"  />
 </p>
 
 
